@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8"><!--Aqui se meu titulo tiver algun caractere especias o navegador entende-->
+        <title>Servidores e suas utiliddes</title>
+        <link rel="shortcut icon" href="/imagens/server.png" type="image/x-icon"> <!--Acionando icone a pagina do navegador-->
+        <link rel="stylesheet" type="text/css" href="/css/estilo.css"><!--Aqui aplico identação a pagina pelo css-->
+    </head>
+    <body>
+        <header>
+            <h1>Servidores e suas utilidades</h1>
+        </header>
+        <main>
+            <section>
+                <h2>Introdução</h2>
+                <p>
+                    Os servidores desempenham papéis fundamentais, como hospedar sites via HTTP,
+                    traduzir domínios em IPs, gerenciar fluxos de e-mails e distribuir endereços de rede automaticamente
+                    Um servidor é um computador de alto desempenho, focado em guardar dados e hospedar serviços essenciais para outros dispositivos em rede. Ele atua como um “provedor de utilidades”, processando diversas solicitações para garantir que a conexão com a informação seja rápida.
+                    Operando como um assistente 24 horas, o sistema monitora portas lógicas e fragmenta arquivos em pacotes para responder aos usuários. Esse ciclo veloz sustenta a robusta infraestrutura global dos servidores de internet, garantindo estabilidade e segurança digital.
+                    Existem tipos de servidores com funções diferentes: um servidor web hospeda sites via HTTP, enquanto o DNS traduz domínios em IPs para facilitar a vida do usuário na rede. Já o Proxy atua como intermediário estratégico, filtrando acessos e protegendo a identidade digital de forma inteligente.
+                    A seguir, entenda detalhadamente o que é um servidor, como ele funciona e as diferentes categorias. Também saiba como diferenciar um servidor físico de um virtual.
+                </p>    
+            </section>
+            <section> <!--section me ajuda a criar seções e trabalhar individualmente elas-->
+                <h3>O que é um servidor?</h3>
+                <p> <!--Strong aplico negrito na parte do texto selecionado-->
+                    <strong> servidor é um sistema ou máquina de alto desempenho projetado para armazenar dados e hospedar serviços essenciais para
+                    outros dispositivos em uma rede.</strong>Ele funciona como uma central de comando, processando diversas solicitações simultâneas para garantir que a conexão entre cliente e informação seja rápida e eficiente.   
+                </p>
+            </section>
+            <section>
+                <h3>Para que serve um servidor?</h3>
+                <p>
+                    Um servidor atua como o grande “provedor de utilidades”, centralizando o armazenamento de dados e o processamento de serviços para dispositivos. Ele hospeda desde sites e bancos de dados até e-mails, permitindo que diversos usuários acessem e compartilhem recursos valiosos de maneira simultânea.
+                    Operando sem interrupções em infraestruturas físicas ou virtuais (nuvem), essa máquina gerencia requisições de APIs e protege informações por meio de firewalls. Seja viabilizando softwares SaaS ou realizando backups, o servidor é o “motor invisível” que entrega cada comando solicitado pelo usuário.
+                </p>
+                <img src="/imagens/servidores.jpg" alt="Servidores" width="1000"> <!--Adicionando uma imagen a minha pagina, "src" é o caminnho "alt" comentario sobre a imagen "width" tamanho da imagem-->
+            </section>
+            <section>
+                <h3>Como funciona um servidor?</h3>
+                <p>
+                    Um servidor funciona como um assistente digital que trabalha 24 horas, processando solicitações de clientes, como navegadores ou aplicativos. Ele monitora constantemente portas lógicas específicas, filtrando conexões para identificar e validar cada pedido de acesso recebido pela rede.                   
+                    Quando o usuário acessar um site, o dispositivo envia uma requisição ao endereço IP do servidor, disparando o processamento imediato dos dados. Nesse estágio, o hardware executa instruções de software e consulta bancos de dados para localizar o conteúdo exato solicitado.
+                    Após localizar a informação, o sistema fragmenta os arquivos em pacotes de dados e envia a resposta de volta pelo mesmo caminho digital. Esse ciclo de comunicação ocorre em milissegundos, garantindo que o fluxo de dados entre a infraestrutura e a tela do usuário seja fluido.
+                    Robustas por natureza, essas máquinas operam com múltiplos núcleos de CPU e protocolos de criptografia para gerenciar milhares de acessos simultâneos. Por meio de sistemas de redundância, o servidor mantém a estabilidade e a segurança, sustentando toda a infraestrutura da internet moderna.
+                </p>
+            </section>
+            <section>
+                <h3>Quais são os componentes de um servidor?</h3>
+                <ul> <!-- "ul" serve para criar lista não ordenadas, juntamemnte com o "li"-->
+                    <!-- "strong" serve para por em negrito a parte selecionada, com o "class" consigo separa cada strong e tratar cada um separado no "css" como se fosse uma variavel-->
+                    <li><strong class="azul">Processador (CPU):</strong> considerado o “cérebro” da operação, ele processa as requisições e executa as instruções que ditam o ritmo de trabalho do ecossistema;</li>
+                    <li><strong class="preto">Placa-mãe:</strong> funciona como o “sistema nervoso central”, integrando todos os componentes por meio de barramentos e slots que permitem a troca constante de dados;</li>
+                    <li><strong class="azul">Memória RAM:</strong> atua como o espaço de trabalho imediato, mantendo dados ativos e o sistema operacional acessíveis para uma resposta ultrarrápida às tarefas;</li>
+                    <li><strong class="azul">Armazenamento em HD ou SSD:</strong> é o arquivo definitivo do servidor, onde informações ficam salvas em discos rígidos (HD) ou unidades flash (SSD);</li>
+                    <li><strong class="preto">Placa de rede (NIC):</strong> o componente essencial que garante a conectividade, permitindo que o servidor se comunique com a rede externa via cabos de alto desempenho;</li>
+                    <li><strong class="preto">Fonte de alimentação (PSU):</strong> converte a energia elétrica para o hardware e conta geralmente com módulos redundantes para evitar desligamentos em caso de falhas;</li>
+                    <li><strong class="preto">Sistema de resfriamento:</strong> utiliza dissipadores e ventoinhas de alto fluxo para controlar o calor intenso e impedir que as altas temperaturas degradem os componentes;</li>
+                    <li><strong class="preto">Chassis e rack:</strong> a estrutura metálica que protege as peças internas e os suportes que organizam o empilhamento desses equipamentos em data centers;</li>
+                    <li><strong class="preto">Placas de expansão:</strong> módulos adicionais, como GPUs, inseridos para otimizar o desempenho em tarefas pesadas como Inteligência Artificial e renderização;</li>
+                    <li><strong class="azul">Sistema operacional (OS): </strong> o software de gestão, como Linux ou Windows Server, que orquestra o hardware e cria o ambiente para a execução de serviços;</li>
+                    <li><strong class="Preto">Serviços e aplicações:</strong> são as camadas finais, como bancos de dados ou servidores web, que processam as demandas enviadas por usuários e outros dispositivos.</li>
+
+                </ul>
+            </section>
+            <section>
+                <h1>Quais são os tipos mais comuns de servidores?</h1>
+                <p>
+                    Existem diversos tipos de servidores essenciais para a infraestrutura da internet, como os servidores web, de bancos de dados, DNS e Proxy. A lista inclui ainda modelos especializados em comunicação e conectividade, como servidores IMAP, SMTP, DHCP e FTP.
+                </p>
+            </section>
+            <section>
+                <ol><!-- Já o "ol" juntamente com "li" posso criar uma lista ordenada-->
+                    <li>Servidor web</li>
+                    <p>
+                        Um servidor web é o software e o hardware que processam pedidos via HTTP, entregando conteúdos como páginas HTML e mídias diretamente no navegador. Ele funciona como um armazém digital que hospeda sites, gerenciando o tráfego de dados para cada clique resultar no carregamento correto dos arquivos.                   
+                        Além do armazenamento, essas máquinas executam scripts em PHP ou Node.js para criar conteúdos dinâmicos e personalizados em tempo real. O sistema também gerencia camadas de segurança e o caching, técnica que memoriza dados frequentes para tornar a navegação mais veloz.
+                        No cenário atual, o Apache e o Nginx lideram pela estabilidade e eficiência no gerenciamento de múltiplos acessos simultâneos. Soluções como o Microsoft IIS e o LiteSpeed também se destacam, oferecendo integração com Windows ou foco total em aplicações de alto desempenho.
+                    </p>               
+                
+                    <!-- Aqui crie uma "class" para tratar essa imagen separadamente da outra-->
+                    <img class="server1" src="/imagens/servidor1.webp" alt="servidor" width="500">
+
+                    <li>Servidor de banco de dados</li>
+                    <p>
+                        Um servidor de banco de dados é uma máquina potente, física ou virtual, dedicada a centralizar, proteger e gerenciar informações via softwares especializados. Ele utiliza a arquitetura cliente-servidor para processar requisições simultâneas, garantindo que diferentes usuários acessem dados de forma rápida e organizada.
+                        Esses computadores são o motor de sistemas de e-commerce e aplicativos bancários, sustentando operações essenciais e o armazenamento seguro de registros. Em larga escala, esses servidores formam a espinha dorsal de grandes data centers, onde realizam transações críticas e backups automáticos.
+                        No mercado, destacam-se os modelos relacionais (SQL), como MySQL e PostgreSQL, e as opções flexíveis (NoSQL), como o MongoDB, para grandes volumes de dados. Todos eles atuam como a base de confiança para qualquer interface digital entregar informações precisas em tempo real.
+            
+                    </p>
+                     <img class="server1" src="/imagens/servidor2.jpg" alt="servidor" width="500">
+
+                    <!--"a" serve para quando queremos adicionar um link, "href" é o link fisico colocamos dentro das aspas, "target" serve para falara onde vamos abrir esse link
+                    se numa aba mova ou na mesma, "alt" quando passamos o mause por cima de qualque nome dessa lista ela mostra oque ta dentro de href-->>
+                     <li><a href="https://tecnoblog.net/responde/o-que-e-um-servidor-saiba-como-funciona-e-os-tipos-mais-comuns-na-web/#h-3-servidor-dns" target="_blank" alt="tecnoblog">Servidor DNS</a></li>
+                     <li><a href="https://tecnoblog.net/responde/o-que-e-um-servidor-saiba-como-funciona-e-os-tipos-mais-comuns-na-web/#h-4-servidor-proxy" target="_blank" alt="tecnoblog">Servidor Proxy</a></li>
+                     <li><a href="https://tecnoblog.net/responde/o-que-e-um-servidor-saiba-como-funciona-e-os-tipos-mais-comuns-na-web/#h-5-servidor-imap" target="_blank" alt="tecnoblog"> Servidor IMAP</a></li>
+                     <li><a href="https://tecnoblog.net/responde/o-que-e-um-servidor-saiba-como-funciona-e-os-tipos-mais-comuns-na-web/#h-6-servidor-smtp" target="_parent" alt="tecnoblog">Servidor SMTP</a></li>
+                     <li><a href="https://tecnoblog.net/responde/o-que-e-um-servidor-saiba-como-funciona-e-os-tipos-mais-comuns-na-web/#h-7-servidor-dhcp" target="_parent" alt="tecnoblog">Servidor DHCP</a></li>
+                     <li><a href="https://tecnoblog.net/responde/o-que-e-um-servidor-saiba-como-funciona-e-os-tipos-mais-comuns-na-web/#h-8-servidor-ftp" target="_parent" alt="tecnoblog">Servidor FTP</a></li>
+                    
+
+                <ol>   
+
+
+            </section>
+
+        </main>
+        <footer>
+            <h1>Pra isso serve servidores.</h1>
+        </footer>
+   
+</body>
+</html>

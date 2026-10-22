@@ -1,12 +1,16 @@
 body{
     font-family:Arial, Helvetica, sans-serif;
-    background-color: rgb(121, 114, 114);
-    margin:50px;
+    background-color: rgb(247, 241, 241);
+    margin: 100px;
 }
-h1{
-    color: aliceblue;
+strong.azul{
+    color: rgb(41, 108, 153);
 }
+strong.preto{
+    color: black;
+}
+img.server1{
+    margin: 20px;
+    margin-top: -5px;
 
-p{
-    color: rgb(255, 255, 255);
 }
