@@ -1,19 +1,52 @@
-.fundo{
-    background-color:#fafafa ;
-    bgcolor="#F1F4F8" text="#222222" link="#1246AA" vlink="#663399" alink="#DD5500">
+.Banner{
+    background-color: rgb(96, 127, 161);
+    text-align: center;
+    color: aliceblue;
+    padding: 5px;
+}
+.Menu{
+    background-color: rgb(197, 212, 231);
+    text-align: center;
+    font-family: Arial;
+}
+.Menu a{
+
+    text-decoration: none;
+    color: black;
+}
+.sub{
+    margin-top: -15px;
 }
 
-toposite{
+.conteudo {
+    display: flex;
+    gap: 20px;
+}
 
+body{
+     font-family: Arial;
+}
+
+main {
+   
+   margin: 10px 50px;
+    flex: 7;
+    min-width: 0;
+}
+th{
+      padding: 5px;
+    border: 1px solid;
+
+}
+
+td{
+    padding: 5px;
+    border: 1px solid;
+
+}
+aside {
     
-<body bgcolor="#F1F4F8" text="#222222" link="#1246AA" vlink="#663399" alink="#DD5500">
-    <a name="topo"></a>
-    <!--header Banner-->
-    <table width="90" align="center" border="0" cellpadding="14" cellspacing="0" bgcolor="#FFFFFF">
-        <tr bgcolor="#183153">
-            <td colspan="12" align="center">
-                <font face="Arial" color="#FFFFFF" size="6"><b>Portal Conecta Tecnologia</b></font><br>
-                <font face="Arial" color="#D6E9FF" size="3">Aprenda, compartilhe e descubra oportunidades</font>
-            </td>
-        </tr>
+    flex: 2;
+    background-color: rgb(147, 164, 187);
+    padding: 15px;
 }
