@@ -50,3 +50,55 @@ aside {
     background-color: rgb(147, 164, 187);
     padding: 15px;
 }
+footer{
+    text-align: center;
+    padding: 50px;
+    background-color: rgb(96, 127, 161) ;
+    color: aliceblue;
+}
+
+img{
+    width: 600px;
+    height: 450px;
+}
+
+
+
+.cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 250px;
+    background-color: rgb(233, 219, 219);
+    border: 1px solid #f3f3f3;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(184, 47, 47, 0.1);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card h2 {
+    font-size: 20px;
+}
+
+.card a {
+    display: inline-block;
+    background-color: #0c1018;
+    color: rgb(252, 247, 247);
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* .card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+ */
