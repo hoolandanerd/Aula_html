@@ -23,6 +23,6 @@ for (let tentativas = 1; tentativas <= 2; tentativas++ ){
 }
 
 if (saida == true){
-        alert("Numeros de tentativas excedido") ;
+    alert("Numeros de tentativas excedido") ;
 }
 

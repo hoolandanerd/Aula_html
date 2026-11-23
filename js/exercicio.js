@@ -6,3 +6,4 @@ fututo = idade + 5
 
 console.log("Olá meu nome é " + nome + ", tenho " + idade + " anos e estou cursando " + curso + ".");
 console.log("Daqui a 5 anos você terá " + fututo + " anos" );
+
