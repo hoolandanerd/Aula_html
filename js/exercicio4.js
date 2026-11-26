@@ -17,29 +17,31 @@
 const sub = document.getElementById("subtrair")
 const adi = document.getElementById("adicionar")
 const numero = document.getElementById("numero")
-valor = 0
+let valor = 0
 
 
     if(adi.addEventListener("click", function () {
         valor++
-        numero.textContent = valor;
+        atualizar()
     
 
     }));else if (
         
         sub.addEventListener("click", function () {
         valor--
-            numero.textContent = valor;
+            atualizar()
 
             
     
     }));
 
+    function atualizar(){
+        numero.textContent = valor;
 
-if(valor < 0){
-    numero.style.color = "red"}
-else {
-    numero.style.color = "blue"
-}
-    
+        if(valor < 0){
+            numero.style.color = "red"}
+        else {
+            numero.style.color = "blue"
+        }
+        }
 
