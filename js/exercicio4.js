@@ -5,14 +5,41 @@
     // <button id="Entrar"></button>
 
 
+// const input = document.getElementById("testeDom")
+// const texto = document.getElementById("texto");
+// const botao = document.getElementById("entrar");
 
-const caixa = document.getElementById("testeDom");
-const botao = document.getElementById("entrar");
+// document.getElementById("botao");
+// addEventListener("click", function(){
+//     texto.innerHTML =  '' + input.value;
+// });
 
-document.getElementById("testeDom");
-document.getElementById("entar");
+const sub = document.getElementById("subtrair")
+const adi = document.getElementById("adicionar")
+const numero = document.getElementById("numero")
+valor = 0
 
-botao.addEventListener("click", function (){
-    caixa.textContent = + this.inputMode.value;
 
-});
+    if(adi.addEventListener("click", function () {
+        valor++
+        numero.textContent = valor;
+    
+
+    }));else if (
+        
+        sub.addEventListener("click", function () {
+        valor--
+            numero.textContent = valor;
+
+            
+    
+    }));
+
+
+if(valor < 0){
+    numero.style.color = "red"}
+else {
+    numero.style.color = "blue"
+}
+    
+
